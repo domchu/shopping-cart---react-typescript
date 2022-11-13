@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Navbar as NavbarBs, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { FiShoppingCart } from "react-icons/fi";
+import { GiShoppingCart } from "react-icons/gi";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           color="outline-primary"
           className="rounded-circle"
         >
-          <FiShoppingCart style={{ color: "blue" }} />
+          <GiShoppingCart style={{ color: "blue", fontSize: "2rem" }} />
           <div
             className="rounded-circle bg-danger d-flex justify-content-center align-items-center"
             style={{
