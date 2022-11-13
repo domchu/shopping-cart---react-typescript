@@ -5,10 +5,12 @@ import { Container } from "react-bootstrap";
 import Home from "./pages/Home";
 import Store from "./pages/Store";
 import About from "./pages/About";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div>
+      <Navbar />
+      <div className="mb-4">
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
