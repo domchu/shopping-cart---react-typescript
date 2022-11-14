@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "cake",
-    "price": "10:66",
+    "price": 10.66,
     "imgUrl": "/images/cake-1.jpeg"
   },
   {
     "id": 2,
     "name": "cake",
-    "price": "5:66",
+    "price": 5.66,
     "imgUrl": "/images/cake-2.jpeg"
   },
   {
     "id": 3,
     "name": "cake",
-    "price": "10:00",
+    "price": 10.0,
     "imgUrl": "/images/cake-3.jpeg"
   },
   {
     "id": 4,
     "name": "cake",
-    "price": "12:46",
+    "price": 12.46,
     "imgUrl": "/images/cupcake-1.jpeg"
   },
   {
     "id": 5,
     "name": "cake",
-    "price": "8:40",
+    "price": 8.4,
     "imgUrl": "/images/cupcake-2.jpeg"
   },
   {
     "id": 5,
     "name": "cake",
-    "price": "11:68",
+    "price": 11.68,
     "imgUrl": "/images/cupcake-3.jpeg"
   }
 ]
