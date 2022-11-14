@@ -12,13 +12,13 @@ const StoreItem = ({ id, imgUrl, price, name }: storeItemProps) => {
       <Card.Img
         variant="top"
         src={imgUrl}
-        height="200px"
+        height="350px"
         style={{ objectFit: "cover" }}
       />
       <Card.Body className="d-flex flex-column">
         <Card.Title className="d-flex justify-content-between align-items-baseline mb-3">
-          <span className="fs-1">{name}</span>
-          <span className="fs-1">{price}</span>
+          <span className="fs-0.7">{name}</span>
+          <span className="ms-2 text-muted">{price}</span>
         </Card.Title>
       </Card.Body>
     </Card>
