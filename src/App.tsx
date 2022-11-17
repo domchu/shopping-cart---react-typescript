@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Container } from "react-bootstrap";
@@ -6,9 +5,10 @@ import Home from "./pages/Home";
 import Store from "./pages/Store";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/shoppingCartContext";
 function App() {
   return (
-    <>
+    <ShoppingCartProvider>
       <Navbar />
       <div className="mb-4">
         <Container>
@@ -19,7 +19,7 @@ function App() {
           </Routes>
         </Container>
       </div>
-    </>
+    </ShoppingCartProvider>
   );
 }
 
