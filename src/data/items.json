@@ -30,11 +30,28 @@
     "price": 10.0,
     "imgUrl": "/images/cake-3.jpeg"
   },
-
   {
     "id": 6,
     "name": "Cupcake",
     "price": 11.68,
     "imgUrl": "/images/cupcake-3.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Bag",
+    "price": 15.12,
+    "imgUrl": "/images/bag.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pause",
+    "price": 7.3,
+    "imgUrl": "/images/pause.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Shoe",
+    "price": 12.43,
+    "imgUrl": "/images/shoe.jpg"
   }
 ]
